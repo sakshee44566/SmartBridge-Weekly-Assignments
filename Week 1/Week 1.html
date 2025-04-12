@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Webpage</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 40px;
+      background-color: #f4f4f4;
+    }
+
+    h1 {
+      text-align: center;
+      color: #333;
+    }
+
+    p {
+      font-family: 'Georgia', serif;
+      line-height: 1.6;
+      text-align: justify;
+      color: #444;
+      margin: 20px 0;
+    }
+
+    .image-container {
+      text-align: center;
+      margin: 30px 0;
+    }
+
+    .image-container img {
+      width: 300px;
+      height: auto;
+      border-radius: 10px;
+    }
+
+    .image-container figcaption {
+      margin-top: 10px;
+      font-style: italic;
+      color: #666;
+    }
+
+    .styled-button {
+      display: inline-block;
+      padding: 10px 20px;
+      border: 2px solid #333;
+      background-color: #fff;
+      color: #333;
+      cursor: pointer;
+      transition: all 0.3s ease;
+      margin: 20px 0;
+    }
+
+    .styled-button:hover {
+      background-color: #333;
+      color: #fff;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 30px 0;
+      background-color: #fff;
+    }
+
+    table, th, td {
+      border: 1px solid #ccc;
+      padding: 12px;
+      text-align: center;
+    }
+
+    form {
+      background-color: #fff;
+      padding: 20px;
+      max-width: 400px;
+      margin: auto;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+    }
+
+    input[type="text"], input[type="email"] {
+      width: 100%;
+      padding: 10px;
+      margin: 10px 0;
+      box-sizing: border-box;
+    }
+
+    input[type="submit"] {
+      padding: 10px 15px;
+      background-color: #007BFF;
+      color: white;
+      border: none;
+      cursor: pointer;
+      border-radius: 5px;
+    }
+
+    input[type="submit"]:hover {
+      background-color: #0056b3;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Welcome to My Webpage</h1>
+
+  <p>This is the first paragraph of the page. It is styled with a unique font, proper line spacing, and justified alignment to improve readability.</p>
+
+  <p>This is the second paragraph. Using CSS styling makes web content more engaging and visually appealing.</p>
+
+  <div class="image-container">
+    <figure>
+      <img src="https://via.placeholder.com/300" alt="Sample Image">
+      <figcaption>Sample Image with Caption</figcaption>
+    </figure>
+  </div>
+
+  <div style="text-align: center;">
+    <button class="styled-button">Click Me</button>
+  </div>
+
+  <table>
+    <tr>
+      <th>Column 1</th>
+      <th>Column 2</th>
+      <th>Column 3</th>
+    </tr>
+    <tr>
+      <td>Row 1</td>
+      <td>Data</td>
+      <td>Data</td>
+    </tr>
+    <tr>
+      <td>Row 2</td>
+      <td>Data</td>
+      <td>Data</td>
+    </tr>
+  </table>
+
+  <form>
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" required />
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required />
+
+    <input type="submit" value="Submit" />
+  </form>
+
+</body>
+</html>
